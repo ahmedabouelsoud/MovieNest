@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieNest</title>
+    <link
+      rel="shortcut icon"
+      href="dist/images/3d-glasses.png"
+      type="image/x-icon"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="dist/css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <!-- vendor_css -->
+    <link rel="stylesheet" href="dist/css/vendor.min.css" />
+    <!-- google fots -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <!-- main_style -->
+    <link rel="stylesheet" href="dist/css/main.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Movie<span class="text-primary fw-bold">Nest</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex col-12 col-md-6 mb-2 mb-md-0 mt-1" role="search">
+            <input
+              class="form-control bg-transparent border-0 text-white"
+              type="search"
+              placeholder="Search for your favorite movie"
+              aria-label="Search for your favorite movie"
+            />
+            <button
+              class="btn bg-transparent text-white border-0 d-flex align-items-center"
+              type="submit"
+            >
+              <i class="fa-solid fa-magnifying-glass me-2"></i>search
+            </button>
+          </form>
+
+          <ul class="navbar-nav ms-auto">
+            <a
+              href="login.html"
+              class="btn btn-primary mb-2 mb-md-0 me-0 me-md-2"
+              >Login</a
+            >
+            <a href="register.html" class="btn btn-outline-light">Register</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- banner -->
+    <section id="banner">
+      <div class="movies">
+        <div
+          class="movie text-white d-flex justify-content-center align-items-center"
+        >
+          <div class="movie__bg"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                  <h1 class="movie__title text-capitalize">iron man</h1>
+                  <span class="movie__year align-self-center">2017</span>
+                </div>
+                <div class="movie__rating d-flex py-1">
+
+                  <div >
+                    <i class="fa-solid fa-star text-primary mb-1 me-1"></i>
+                    <i class="fa-solid fa-star text-primary mb-1 me-1"></i>
+                    <i class="fa-solid fa-star text-primary mb-1 me-1"></i>
+                    <i class="fa-solid fa-star text-primary mb-1 me-1"></i>
+                    <span class="align-self-center">4.7</span>
+                  </div>
+                </div>
+                <div class="movie__description py-2"> 
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate tenetur veniam obcaecati fugiat blanditiis
+                  consequatur molestiae adipisci, id hic excepturi, voluptatem
+                  non saepe voluptatum ratione perspiciatis? Dolor, sunt
+                  mollitia? Recusandae!
+                </p>
+              </div>
+                <div class="movie__cta py-1">
+                  <a href="" class="btn btn-primary text-capitalize me-0 me-md-2"><i class="fa-solid fa-play"></i> watch now</a>
+                  <a href="" class="btn btn-outline-light text-capitalize"><i class="fa-solid fa-heart-circle-plus"></i> add to favorite</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of banner -->
+    <!-- jquery -->
+    <script src="dist/js/jquery-3.4.0.min.js"></script>
+    <!-- bootstrap -->
+    <script src="dist/js/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- vendor_script -->
+    <script src="dist/js/vendor.min.js"></script>
+    <!-- main_script -->
+    <script src="dist/js/main.min.js"></script>
+  </body>
+</html>
